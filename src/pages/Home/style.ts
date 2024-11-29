@@ -59,7 +59,11 @@ export const ListPages = styled.li`
 export const ContentImage = styled.div`
     height: 100%;
     width: auto;
-
+    @media (max-width: 1300px){
+        img{
+            max-width: 700px;
+        }
+    }
     @media (max-width: 768px) {
         img{
             max-width: 415px;
