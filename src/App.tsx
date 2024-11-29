@@ -13,7 +13,7 @@ function App() {
       <GlobalStyle/>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/validaSku" element={<Home />} />
           <Route path="/sku/kit" element={<SkuKit />} />
           <Route path="/sku/combo" element={<SkuCombo />} />        
         </Routes>
